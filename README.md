@@ -1,3 +1,16 @@
+# This repository contains the code for the Fifth Elephant Workshop on fine-tuning LLMs
+
+You can find more about the workshop [here](https://hasgeek.com/fifthelephant/script-write-your-soap-opera-in-a-llms-workshop/).
+
+The specific additions to this repository include:
+
+- A notebook that provides a simple walkthrough of the process of fine-tuning
+- A second notebook that provides techniques for synthetic data generation
+- The generated dataset that is used to fine-tune the model
+- Modified configuration files for training the AI script-writer
+
+The rest of this README file contains the original instructions from Modal Labs
+
 # Fine-tune any LLM in minutes (ft. Mixtral, LLaMA, Mistral)
 
 This guide will show you how to fine-tune any LLM quickly using [`modal`](https://github.com/modal-labs/modal-client) and [`axolotl`](https://github.com/OpenAccess-AI-Collective/axolotl).
